@@ -1,0 +1,30 @@
+h1 a {
+    color:green;
+    text-decoration: none
+}
+h1{
+    border-bottom: 1px solid gray;
+    padding : 10px;
+    margin : 0px;
+}
+ol{
+    border-right: 1px solid gray; /*ol 태그는 화면 전체를 쓰기 때문에 width 값ㅇ르 지정해야*/
+    width : 100px;
+    margin : 0px;
+    padding : 20px;
+}
+body{
+    margin : 0px;
+    padding : 10px;
+}
+img{
+    border : 5px rgb(97, 96, 95) solid;
+    /* padding : 5px; 테두리와 이미지 사이에 여백 생김 (+ 바깥쪽은 margin, 마우스 우클릭하고 검사 누르면 상세 정보 확인 가능)*/
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#article{
+    padding-left: 25px;
+}
